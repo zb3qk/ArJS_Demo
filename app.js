@@ -40,6 +40,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen('3000', '192.183.190.3');
-
 module.exports = app;
